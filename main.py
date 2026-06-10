@@ -6,7 +6,7 @@ print('Setup Started')
 window = pygame.display.set_mode(size=(600, 400))
 print('Setup Finished')
 
-print('Loop Started')
+print('Loop Started ')
 while True:
     # Check for all events
     for event in pygame.event.get():
