@@ -37,7 +37,6 @@ class Menu:
                 if event.type == pygame.QUIT:
                     pygame.quit()
                     quit()
-
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_DOWN:
                         if menu_option < len(MENU_OPTION) - 1:
